@@ -18,6 +18,13 @@ namespace TextEditor
             InitializeComponent();
         }
 
+        void UnlockControlls()
+        {
+            mb_Close.Enabled = true;
+            mb_Save.Enabled = true;
+            mb_SaveAs.Enabled = true;
+        }
+
         private void mb_Open_Click(object sender, EventArgs e)
         {
             if(openFileDialog.ShowDialog() == DialogResult.OK)
@@ -29,8 +36,26 @@ namespace TextEditor
                 {
                     resText += line + "\n";
                 }
-                rtb_Editor.Text = resText.Remove(resText.Length - 1);
+                if(!String.IsNullOrEmpty(resText))
+                {
+                    rtb_Editor.Text = resText.Remove(resText.Length - 1);
+                }
+                else
+                {
+                    rtb_Editor.Text = "";
+                }
+                UnlockControlls();
             }
+        }
+
+        private void mb_Save_Click(object sender, EventArgs e)
+        {
+            fileEditor.WriteFile(rtb_Editor.Text);
+        }
+
+        private void F_TextEditor_KeyDown(object sender, KeyEventArgs e)
+        {
+            
         }
     }
 }

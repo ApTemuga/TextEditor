@@ -71,18 +71,22 @@ namespace TextEditor
             // 
             // mb_Save
             // 
+            this.mb_Save.Enabled = false;
             this.mb_Save.Name = "mb_Save";
             this.mb_Save.Size = new System.Drawing.Size(180, 22);
             this.mb_Save.Text = "Сохранить";
+            this.mb_Save.Click += new System.EventHandler(this.mb_Save_Click);
             // 
             // mb_SaveAs
             // 
+            this.mb_SaveAs.Enabled = false;
             this.mb_SaveAs.Name = "mb_SaveAs";
             this.mb_SaveAs.Size = new System.Drawing.Size(180, 22);
             this.mb_SaveAs.Text = "Сохранить как...";
             // 
             // mb_Close
             // 
+            this.mb_Close.Enabled = false;
             this.mb_Close.Name = "mb_Close";
             this.mb_Close.Size = new System.Drawing.Size(180, 22);
             this.mb_Close.Text = "Закрыть";
@@ -109,9 +113,11 @@ namespace TextEditor
             this.ClientSize = new System.Drawing.Size(342, 398);
             this.Controls.Add(this.rtb_Editor);
             this.Controls.Add(this.ms_MainMenu);
+            this.KeyPreview = true;
             this.MainMenuStrip = this.ms_MainMenu;
             this.Name = "F_TextEditor";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.F_TextEditor_KeyDown);
             this.ms_MainMenu.ResumeLayout(false);
             this.ms_MainMenu.PerformLayout();
             this.ResumeLayout(false);

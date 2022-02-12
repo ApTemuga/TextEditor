@@ -35,5 +35,24 @@ namespace TextEditor
             }
             return lines;
         }
+
+        public void WriteFile(string text)
+        {
+            try
+            {
+                WriteText(text);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show("Exception: " + e.Message);
+            }
+        }
+
+        void WriteText(string text)
+        {
+            StreamWriter sw = new StreamWriter(filePath);
+            sw.WriteLine(text);
+            sw.Close();
+        }
     }
 }

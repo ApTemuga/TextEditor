@@ -54,5 +54,18 @@ namespace TextEditor
             sw.WriteLine(text);
             sw.Close();
         }
+
+        public void WriteFileAs(string text, string newFilePath)
+        {
+            try
+            {
+                filePath = newFilePath;
+                WriteText(text);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show("Exception: " + e.Message);
+            }
+        }
     }
 }

@@ -1,0 +1,15 @@
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.exe
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.deps.json
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.json
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.dev.json
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.dll
+D:\Ли Александр\TextEditor\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.pdb
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.AssemblyReference.cache
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfoInputs.cache
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfo.cs
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.CoreCompileInputs.cache
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.dll
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.pdb
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.genruntimeconfig.cache
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.GenerateResource.cache
+D:\Ли Александр\TextEditor\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.F_TextEditor.resources
